@@ -28,3 +28,5 @@
 - 🔹 Server optimizations
 - 🔹 Custom commands & events
 - 🔹 HL engine scripting
+  
+![Snake animation](https://github.com/TWÓJ_LOGIN/TWÓJ_LOGIN/blob/output/github-contribution-grid-snake-dark.svg)
