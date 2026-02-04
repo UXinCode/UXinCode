@@ -1,4 +1,4 @@
-<h1 align="center">Hi 👋, I'm SkyDev</h1>
+<h1 align="center">Hi 👋, I'm aKaRi</h1>
 <h3 align="center">AMXX Developer / CS 1.6 Modder</h3>
 
 ---
