@@ -6,8 +6,7 @@
 ### 👨‍💻 About me
 - 🎮 AMX Mod X developer (CS 1.6)
 - 🧩 Creating plugins & server modifications
-- 🌍 Based in Poland
-- 🧠 Learning low-level & game scripting
+- 🌍 BaseBuilder | Zombie Mod - Plague
 
 ---
 
