@@ -32,7 +32,7 @@
 <p align="center">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/UXinCode/UXinCode/main/assets/terminal.svg">
-    <img width="90%" alt="Terminal" src="https://raw.githubusercontent.com/UXinCode/UXinCode/main/assets/terminal-light.svg">
+    <img width="92%" alt="Terminal" src="https://raw.githubusercontent.com/UXinCode/UXinCode/main/assets/terminal-light.svg">
   </picture>
 </p>
 
