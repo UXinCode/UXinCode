@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="196" viewBox="0 0 900 196" role="img" aria-label="GitHub stats for UXinCode">
+  <defs>
+    <clipPath id="card"><rect width="900" height="196" rx="16"/></clipPath>
+    <clipPath id="bar"><rect x="160" y="132" width="708" height="10" rx="5"/></clipPath>
+    <filter id="blur" x="-100%" y="-100%" width="300%" height="300%"><feGaussianBlur stdDeviation="45"/></filter>
+    <pattern id="cells" width="16" height="16" patternUnits="userSpaceOnUse"><rect x="2.5" y="2.5" width="11" height="11" rx="2" fill="#1e293b"/></pattern>
+    <linearGradient id="line" gradientUnits="userSpaceOnUse" x1="0" y1="0" x2="900" y2="0">
+      <stop offset="0" stop-color="#3b82f6" stop-opacity="0"/>
+      <stop offset=".5" stop-color="#3b82f6"/>
+      <stop offset="1" stop-color="#ec4899" stop-opacity="0"/>
+      <animateTransform attributeName="gradientTransform" type="translate" values="450 0;-450 0;450 0" dur="8s" repeatCount="indefinite"/>
+    </linearGradient>
+  </defs>
+  <style>
+    .mono { font-family: ui-monospace, SFMono-Regular, Consolas, monospace; }
+    .head { font-size: 12px; letter-spacing: 2px; fill: #64748b; }
+    .num { font: 800 32px "Segoe UI", -apple-system, sans-serif; fill: #e2e8f0; }
+    .lbl { font-size: 11px; letter-spacing: 1.5px; fill: #94a3b8; }
+    .lang { font-size: 12px; fill: #e2e8f0; }
+    .pct { fill: #94a3b8; }
+    .in { animation: rise .6s ease-out both; }
+    .seg { transform-box: fill-box; transform-origin: left; animation: grow .7s ease-out both; }
+    .glow { animation: breathe 6s ease-in-out infinite alternate; }
+    @keyframes rise { from { opacity: 0; transform: translateY(8px); } }
+    @keyframes grow { from { transform: scaleX(0); } }
+    @keyframes breathe { to { opacity: .3; } }
+  </style>
+  <g clip-path="url(#card)">
+    <g class="glow" filter="url(#blur)" opacity=".4"><circle cx="750" cy="0" r="110" fill="#3b82f6"/><circle cx="150" cy="196" r="110" fill="#ec4899"/></g>
+    <rect width="900" height="196" fill="url(#cells)" fill-opacity=".06"/>
+    <rect y="194" width="900" height="2" fill="url(#line)"/>
+  </g>
+  <rect x=".5" y=".5" width="899" height="195" rx="15.5" fill="none" stroke="#1e293b"/>
+  <g class="in" style="animation-delay:0.08s"><text class="num" x="180" y="66" text-anchor="middle">—</text><text class="mono lbl" x="180" y="90" text-anchor="middle">REPOS</text></g>
+  <g class="in" style="animation-delay:0.16s"><text class="num" x="360" y="66" text-anchor="middle">—</text><text class="mono lbl" x="360" y="90" text-anchor="middle">STARS</text></g>
+  <g class="in" style="animation-delay:0.24s"><text class="num" x="540" y="66" text-anchor="middle">—</text><text class="mono lbl" x="540" y="90" text-anchor="middle">SINCE</text></g>
+  <text class="mono head" x="32" y="141">LANGUAGES</text>
+  <rect x="160" y="132" width="708" height="10" rx="5" fill="#1e293b"/>
+  <g clip-path="url(#bar)">
+    <rect class="seg" fill="#3b82f6" x="160" y="132" width="220" height="10" style="animation-delay:0.30s"/>
+    <rect class="seg" fill="#60a5fa" x="380" y="132" width="140" height="10" style="animation-delay:0.38s"/>
+    <rect class="seg" fill="#ec4899" x="520" y="132" width="100" height="10" style="animation-delay:0.46s"/>
+    <rect class="seg" fill="#94a3b8" x="620" y="132" width="80" height="10" style="animation-delay:0.54s"/>
+  </g>
+  <g class="in" style="animation-delay:0.50s"><circle fill="#3b82f6" cx="37" cy="170" r="5"/><text class="mono lang" x="48" y="174">Pawn<tspan class="pct"> 40%</tspan></text></g>
+  <g class="in" style="animation-delay:0.56s"><circle fill="#60a5fa" cx="177" cy="170" r="5"/><text class="mono lang" x="188" y="174">C<tspan class="pct"> 25%</tspan></text></g>
+  <g class="in" style="animation-delay:0.62s"><circle fill="#ec4899" cx="317" cy="170" r="5"/><text class="mono lang" x="328" y="174">Lua<tspan class="pct"> 15%</tspan></text></g>
+  <g class="in" style="animation-delay:0.68s"><circle fill="#94a3b8" cx="457" cy="170" r="5"/><text class="mono lang" x="468" y="174">other<tspan class="pct"> 20%</tspan></text></g>
+</svg>
