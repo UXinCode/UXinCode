@@ -17,8 +17,11 @@
   <img width="100%" alt="Terminal" src="https://raw.githubusercontent.com/UXinCode/UXinCode/main/assets/terminal-light.svg">
 </picture></p>
 
-<!-- GitHub Stats -->
-<p><picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api?username=UXinCode&show_icons=true&theme=radical&hide_border=true&bg_color=0d0d0d&title_color=8a2be2&text_color=c9d1d9&icon_color=00ff9d">
-  <img width="100%" alt="GitHub Stats" src="https://github-readme-stats.vercel.app/api?username=UXinCode&show_icons=true&theme=default&hide_border=true">
-</picture></p>
+<!-- GitHub Stats (alternatywa) -->
+<p align="center">
+  <img src="https://img.shields.io/github/stars/UXinCode?style=for-the-badge&logo=github&color=8a2be2" alt="Stars">
+  &nbsp;
+  <img src="https://img.shields.io/github/followers/UXinCode?style=for-the-badge&logo=github&color=00ff9d" alt="Followers">
+  &nbsp;
+  <img src="https://img.shields.io/github/commit-activity/m/UXinCode?style=for-the-badge&logo=github&color=8a2be2" alt="Commits">
+</p>
