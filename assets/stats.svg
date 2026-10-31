@@ -32,9 +32,10 @@
     <rect y="194" width="900" height="2" fill="url(#line)"/>
   </g>
   <rect x=".5" y=".5" width="899" height="195" rx="15.5" fill="none" stroke="#1e293b"/>
-  <g class="in" style="animation-delay:0.08s"><text class="num" x="180" y="66" text-anchor="middle">—</text><text class="mono lbl" x="180" y="90" text-anchor="middle">REPOS</text></g>
-  <g class="in" style="animation-delay:0.16s"><text class="num" x="360" y="66" text-anchor="middle">—</text><text class="mono lbl" x="360" y="90" text-anchor="middle">STARS</text></g>
-  <g class="in" style="animation-delay:0.24s"><text class="num" x="540" y="66" text-anchor="middle">—</text><text class="mono lbl" x="540" y="90" text-anchor="middle">SINCE</text></g>
+  <g class="in" style="animation-delay:0.08s"><text class="num" x="180" y="66" text-anchor="middle">11</text><text class="mono lbl" x="180" y="90" text-anchor="middle">REPOS</text></g>
+  <g class="in" style="animation-delay:0.16s"><text class="num" x="360" y="66" text-anchor="middle">2</text><text class="mono lbl" x="360" y="90" text-anchor="middle">STARS</text></g>
+  <g class="in" style="animation-delay:0.24s"><text class="num" x="540" y="66" text-anchor="middle">2021</text><text class="mono lbl" x="540" y="90" text-anchor="middle">SINCE</text></g>
+  <g class="in" style="animation-delay:0.32s"><text class="num" x="720" y="66" text-anchor="middle">2582</text><text class="mono lbl" x="720" y="90" text-anchor="middle">VISITS</text></g>
   <text class="mono head" x="32" y="141">LANGUAGES</text>
   <rect x="160" y="132" width="708" height="10" rx="5" fill="#1e293b"/>
   <g clip-path="url(#bar)">
