@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="200" viewBox="0 0 1100 200">
+  <rect width="1100" height="200" rx="10" fill="#0d1117" stroke="#8a2be2" stroke-width="1.5"/>
+  <rect x="0" y="0" width="1100" height="36" fill="#161b22" rx="10 10 0 0"/>
+  <circle cx="18" cy="18" r="6" fill="#ff5f56"/>
+  <circle cx="38" cy="18" r="6" fill="#ffbd2e"/>
+  <circle cx="58" cy="18" r="6" fill="#27c93f"/>
+  <text x="80" y="23" font-family="monospace" font-size="13" fill="#8b949e">akari@cs16:~</text>
+  <text x="30" y="70" font-family="monospace" font-size="16" fill="#00ff9d">$ whoami</text>
+  <text x="30" y="100" font-family="monospace" font-size="15" fill="#c9d1d9">AMXX Developer focused on Counter Strike 1.6</text>
+  <text x="30" y="130" font-family="monospace" font-size="14" fill="#8a2be2">$ cat about.txt</text>
+  <text x="30" y="160" font-family="monospace" font-size="14" fill="#c9d1d9">I write plugins and build gameplay systems that run cleanly under real load. Based in Poland.</text>
+  <rect x="30" y="175" width="8" height="14" fill="#00ff9d">
+    <animate attributeName="opacity" values="1;0;1" dur="1.2s" repeatCount="indefinite"/>
+  </rect>
+</svg>
