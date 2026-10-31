@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="220" viewBox="0 0 900 220" role="img" aria-label="About aKaRi">
+  <defs>
+    <clipPath id="card"><rect width="900" height="220" rx="16"/></clipPath>
+    <filter id="blur" x="-100%" y="-100%" width="300%" height="300%"><feGaussianBlur stdDeviation="45"/></filter>
+    <pattern id="cells" width="16" height="16" patternUnits="userSpaceOnUse"><rect x="2.5" y="2.5" width="11" height="11" rx="2" fill="#1e293b"/></pattern>
+    <linearGradient id="line" gradientUnits="userSpaceOnUse" x1="0" y1="0" x2="900" y2="0">
+      <stop offset="0" stop-color="#3b82f6" stop-opacity="0"/>
+      <stop offset=".5" stop-color="#3b82f6"/>
+      <stop offset="1" stop-color="#ec4899" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+  <g clip-path="url(#card)">
+    <rect width="900" height="220" fill="#0f172a"/>
+    <rect width="900" height="220" fill="url(#cells)" opacity="0.4"/>
+    <rect class="glow" x="-100" y="40" width="300" height="140" fill="#3b82f6" filter="url(#blur)" opacity="0.15"/>
+    <rect class="glow" x="700" y="40" width="300" height="140" fill="#ec4899" filter="url(#blur)" opacity="0.12"/>
+    <rect y="216" width="900" height="4" fill="url(#line)"/>
+  </g>
+  <text x="450" y="95" font-family="system-ui, -apple-system, sans-serif" font-size="28" font-weight="600" fill="#e2e8f0" text-anchor="middle">AMXX Developer focused on Counter-Strike 1.6</text>
+  <text x="450" y="135" font-family="ui-monospace, SFMono-Regular, Consolas, monospace" font-size="16" fill="#94a3b8" text-anchor="middle">I write plugins and build gameplay systems that run cleanly under real load.</text>
+  <text x="450" y="165" font-family="ui-monospace, SFMono-Regular, Consolas, monospace" font-size="16" fill="#60a5fa" text-anchor="middle">Based in Poland. Open to custom work.</text>
+</svg>
